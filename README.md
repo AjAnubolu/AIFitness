@@ -1,6 +1,6 @@
 # Real-Time Squat Monitoring and Feedback System
 
-Developed a real-time squat monitoring and feedback system for my senior project under the mentorship of a Meta software engineer. Leveraging data science and computer vision, the application analyzes squat movements using Google's MediaPipe Pose Detection Model and provides immediate feedback to enhance exercise performance.
+Developed a real-time squat monitoring and feedback system for my senior project under the mentorship of a Meta software engineer. I gathered and preprocessed physiological data from research studies on optimal squat angles to enhance the model's accuracy. By predicting pose landmarks and calculating joint angles at various critical intervals, the system compared user movements against optimal thresholds to count repetitions and evaluate performance. I also integrated gesture control using hand recognition—raising the right hand to start or resume the program and the left to reset the counter and pause—enhancing user interaction and usability.
 
 - **[Blog on Developmental Process of Project](https://basisindependent.com/schools/ca/fremont/academics/the-senior-year/senior-projects/ajay-a/)**
 - **[Live Demo](https://www.youtube.com/watch?v=6pyaGpjBJq4)**

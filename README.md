@@ -2,6 +2,9 @@
 
 Developed a real-time squat monitoring and feedback system for my senior project under the mentorship of a Meta software engineer. Leveraging data science and computer vision, the application analyzes squat movements using Google's MediaPipe Pose Detection Model and provides immediate feedback to enhance exercise performance.
 
+- **[Blog on Developmental Process of Project](https://yourblog.com/post)**
+- **[Live Demo](https://yourdemo.com)**
+
 ## Table of Contents
 
 - [Features](#features)

@@ -116,7 +116,7 @@ Developed a real-time squat monitoring and feedback system for my senior project
 5. **Close**
 
    ```bash
-  deactivate
+    deactivate
 
 ___
 

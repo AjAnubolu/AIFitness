@@ -10,8 +10,6 @@ Developed a real-time squat monitoring and feedback system for my senior project
 - [Usage](#usage)
 - [Data Collection](#data-collection)
 - [Acknowledgments](#acknowledgments)
-- [Contact Information](#contact-information)
-- [License](#license)
 
 ---
 
@@ -53,29 +51,72 @@ Developed a real-time squat monitoring and feedback system for my senior project
 
 ### Prerequisites
 
-- Python 3.x installed on your system.
+- Python 3.8 installed on your system.
 - A webcam connected to your computer.
-- Can use 
+- **Optional:** [Bazel](https://bazel.build/) build tool installed (if using Bazel)
+- **Optional:** [Brew](https://brew.sh/)  if using macOS (replace pip3 with brew in commands)
+  - ```bash
+    brew install git
+    ```bash
+    brew install python
+    ```bash
+    brew install python opencv
+    ```bash
+    pip install mediapipe numpy
+
+- **Optional:** [Git](https://git-scm.com/downloads) for version control
+  - ```bash
+    git init          # Initialize a new Git repository
+    ```bash
+    git add .         # Stage changes for commit
+    ```bash
+    git commit -m "Initial commit"   # Commit changes with a message
+
 
 ### Dependencies
 
-- OpenCV
-- MediaPipe
-- NumPy
+- mediapipe==0.8.6
+- numpy==1.21.2
+- opencv-python==3
+
 
 ### Instructions
 
-1. **Clone or Download the Project Repository**
+
+1. **Prepare Virtual Environment**
 
    ```bash
-   git clone https://github.com/yourusername/squat-monitoring-system.git
+   pip3 install python
+   ```bash
+   pip3 upgrade python
+   ```bash
+   cd path/to/your/projects/
+    ```bash
+   python -m venv env
+  .\env\Scripts\activate
+   
 
-2. . **Navigate to project directory**
+
+
+2. **Clone or Download the Project Repository**
 
    ```bash
-   cd "your_project_directory"
-4. ```bash
-   cd "your_project_directory"
+   git clone https://github.com/AjAnubolu/AIFitness
+
+3. . **Navigate to project directory**
+
+   ```bash
+   cd project-repo
+   
+4. **Run**
+   
+ ```bash
+  python squat_monitor.py
+
+5. **Close**
+
+   ```bash
+  deactivate
 
 ___
 

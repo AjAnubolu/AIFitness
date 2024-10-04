@@ -110,8 +110,8 @@ Developed a real-time squat monitoring and feedback system for my senior project
    
 4. **Run**
    
- ```bash
-  python squat_monitor.py
+   ```bash
+    python squat_monitor.py
 
 5. **Close**
 
